@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.fundo{
+    height: 100%;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 30px;
+}
+.senha{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 35px;   
+    background-color: white;
+}
+.botao{
+    height: 70px;
+    width: 70px;
+    margin: 2px;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    font-size: 22px;
+    border-radius: 100%;
+}
+.botao:hover{
+    background-color: white;
+    border: 1px solid black;
+}
+#resultado{
+    margin: 7px;
+    height: 30px;
+    width: 220px;
+    text-align: center;
+    padding-top: 15px;
+    border: 1px solid black;
+
+}
